@@ -1,0 +1,46 @@
+body {
+    background-color: powderblue;
+}
+h1 {
+    color: black;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 72px;
+    font-weight: 100; 
+    margin: 10px 
+}
+.letterhead {
+    background-image: url(../images/paper.jpg);
+    background-color: white;
+    border-width: 3px;
+    border-color: red;
+    border-type: solid;
+}
+
+#inputs {
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    border-style: solid;
+    border-color: red;
+    border-width: 3px;
+}
+#madlibs {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-color: yellow;
+    border-width: 3px;
+    color: white;
+    font-size: xx-large;
+    font-weight: 800; 
+}
+
+#doctor {
+    border-color: red;
+}
+#PageBody {
+    background-color: black;
+}
