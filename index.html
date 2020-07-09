@@ -18,46 +18,71 @@
      <div id="PageBody">
      <div id="inputs">
 <center>
-    <input type="text" placeholder="Silly Word"> 
+    <form onSubmit="return false" action="">
+    <input type="text" placeholder="Silly Word" id="sillyWord"> 
     
-    <input type="text" placeholder="Last name"> 
+    <input type="text" placeholder="Last name" id="lastName"> 
     
-    <input type="text" placeholder="Illness"> 
+    <input type="text" placeholder="Illness" id="illness">
     
-    <input type="text" placeholder="Noun"> 
+    <input type="text" placeholder="Noun" id="noun"> 
     
-    <input type="text" placeholder="Adjective"> 
+    <input type="text" placeholder="Adjective" id="adjective"> 
     
-    <input type="text" placeholder="Adjective"> 
+    <input type="text" placeholder="Adjective" id="adjectiveTwo"> 
     
-    <input type="text" placeholder="Place">
+    <input type="text" placeholder="Place" id="place">
     
-    <input type="text" placeholder="Number"> 
+    <input type="text" placeholder="Number" id="number"> 
    
-    <input type="text" placeholder="Adjective"> 
+    <input type="text" placeholder="Adjective" id="adjectiveThree"> 
     <center>
+   <button type="submit" onclick="writeStory()" id="createMadlibs">Create!</button>
+ </form> 
+</div>   
     </center>
-    <button type="submit">Create!</button> </center>
-   </div>
-    <div id="madlibs"
+   
+   
+    
+    <div id="madlibs">
         <!--Below your text inputs, add a paragraph with the mad libs story you plan to use 
             (we will update this when we work on this project a few weeks from now)-->
             <div id="doctor" >
-              <!-- <img src="./images/doc.jpg" placeholder="confused doctor"></img> -->
+             <center> <img src="./images/doc.jpg" placeholder="confused doctor"> </center>
             </div>
-            <p> 
-        Dear School Nurse:
+            <div id ="answer"></div> 
+               
+        
+        
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <!--Dear School Nurse:
         Silly Word Last Name will not be attending school today. He/she has come down with a 
         case of Illness and has horrible Noun and a/an Adjective fever. We have made an appointment 
         with the Adjective Dr. Silly Word, who studied for many years in Place and has Number degrees in
         pediatrics. He will send you all the information you need. Thank you!
         Sincerely
         Mr. Adjective.
-        </p>
+        </p> -->
     <!--Use your style.css file to make the project as professional an appearance as possible.-->
-    </div>
     
-</div>        
-</body>
+    
+</div> 
+<script src ='./js/app.js'></script>       
 </body>
 </html>
