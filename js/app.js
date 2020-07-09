@@ -21,7 +21,7 @@ function writeStory(){
     var adjectiveThree = document.getElementById("adjectiveThree").value;
     console.log(adjectiveThree);
 
-var sentence = "<p> Dear School Nurse: </p> <p>" + sillyWord + " " + lastName + " will not be attending school today. He/she has come down with a case of " + illness + " and has horrible " + noun + " and a/an " + adjective + " fever. We have made an appointment with the " + adjectiveTwo + " Dr. " + sillyWord + " who studied for many years at " + place + " and has " + number + " degrees in pediatrics. </p> <p> Sincerely Mr. "  + adjective + ". </p>"
+var sentence = "<p> Dear School Nurse: </p> <p>" + sillyWord + " " + lastName + " will not be attending school today. He/she has come down with a case of " + illness + " and has horrible " + noun + " and a/an " + adjective + " fever. We have made an appointment with the " + adjectiveTwo + " Dr. " + sillyWord + " who studied for many years at " + place + " and has " + number + " degrees in pediatrics. He will send you all the information you need. Thank you! </p> <p> Sincerely Mr. "  + adjective + ". </p>"
 
 console.log(sentence);
 document.getElementById("answer").innerHTML = sentence;
